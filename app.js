@@ -24,7 +24,7 @@ const app = express();
 
 // Link to MongoDB via MLab
 // Need to create throw away email / mlab account
-MongoClient.connect('<LINK TO MLAB GOES HERE>', (err, database) => {
+MongoClient.connect('mongodb://noinstructor17:irisedapp17@ds111496.mlab.com:11496/iris-app', (err, database) => {
   if (err) return console.log(err);
   db = database;
   app.listen(3000, () => {
