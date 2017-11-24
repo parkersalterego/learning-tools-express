@@ -18,4 +18,4 @@ const studentSchema = new Schema({
     },
 });
 
-module.exports = studentSchema;
+module.exports = Student;

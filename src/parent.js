@@ -30,4 +30,4 @@ const parentSchema = new Schema({
     },
 });
 
-module.exports = parentSchema;
+module.exports = Parent;
