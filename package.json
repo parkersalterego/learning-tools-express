@@ -15,5 +15,9 @@
     "passport": "^0.4.0"
   },
   "author": "A. Weaver",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "jshint": "^2.9.5"
+  }
 }
