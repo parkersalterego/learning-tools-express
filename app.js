@@ -33,5 +33,5 @@ MongoClient.connect('mongodb://noinstructor17:irisedapp17@ds111496.mlab.com:1149
 });
 
 app.get('/', (req, res) => {
-  res.send('Connected...')
-})
+  res.send('Connected...');
+});
