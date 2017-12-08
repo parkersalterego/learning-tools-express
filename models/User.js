@@ -13,23 +13,11 @@ const UserSchema = new Schema({
   },
 
   login:{
-    email: {
-      type: String,
-      required: true,
-      validator:{}
-    },
-    password:{
-      type: String,
-      required: true,
-      validator:{
-
-      }
-    }
+    email: {type: String, required: true, validator:{}},
+    password: {type: String, required: true, validator:{}}
   },
 
-  permissions:{
-    role: String,
-    validator:{}
+  permissions: {role: String, validator:{}
   },
 
   school:{
